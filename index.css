@@ -451,7 +451,7 @@
   }
   
   .skills-content .right .c::before {
-    width: 93%;
+    width: 88%;
   }
   
   .skills-content .right .node::before {
@@ -463,11 +463,15 @@
   }
   
   .skills-content .right .ml::before {
-    width: 80%;
+    width: 92%;
   }
   
   .skills-content .right .html::before {
     width: 90%;
+  }
+
+  .skills-content .right .php::before {
+    width: 78%;
   }
 
   .skills-content .right .java::before {
@@ -794,6 +798,7 @@
     font-size: 1em; /* Adjusted to relative units for responsiveness */
     margin: 2em auto 0; /* Centering the button using auto for left and right margins */
     cursor: pointer;
+    border-radius: 6%;
 }
 
 @media screen and (min-width: 768px) {
