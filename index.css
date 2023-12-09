@@ -787,14 +787,21 @@
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1em 2em; /* Adjusted to relative units for responsiveness */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1em; /* Adjusted to relative units for responsiveness */
+    margin: 2em auto 0; /* Centering the button using auto for left and right margins */
     cursor: pointer;
-  }
+}
+
+@media screen and (min-width: 768px) {
+    /* Adjust styles for screens wider than 768px */
+    .buttonV {
+        font-size: 1.5em;
+    }
+}
   
   .button2 {background-color: #008CBA;}
   button:hover {
