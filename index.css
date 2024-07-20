@@ -451,31 +451,31 @@
   }
   
   .skills-content .right .c::before {
-    width: 88%;
+    width: 85%;
   }
   
   .skills-content .right .node::before {
-    width: 95%;
-  }
-  
-  .skills-content .right .react::before {
-    width: 75%;
-  }
-  
-  .skills-content .right .ml::before {
     width: 92%;
   }
   
-  .skills-content .right .html::before {
+  .skills-content .right .react::before {
+    width: 89%;
+  }
+  
+  .skills-content .right .ml::before {
     width: 90%;
+  }
+  
+  .skills-content .right .html::before {
+    width: 95%;
   }
 
   .skills-content .right .php::before {
-    width: 78%;
+    width: 82%;
   }
 
   .skills-content .right .java::before {
-    width: 65%;
+    width: 78%;
   }
   
   .owl-dots {

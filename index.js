@@ -53,7 +53,8 @@ $(document).ready(function () {
     var typed = new Typed(".typing", {
       strings: [
         "Computer Engineer.",
-        "MERN Stack Developer.",
+        "Data Analyst",
+        "MERN stack Developer.",
         "Competitive Coder.",
         "Lifelong Learner."
       ],
