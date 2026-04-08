@@ -52,9 +52,9 @@ $(document).ready(function () {
     // Typing text animation script
     var typed = new Typed(".typing", {
       strings: [
+        "Data Analyst.",
         "Computer Engineer.",
-        "Data Analyst",
-        "MERN stack Developer.",
+        "Full Stack Developer.",
         "Competitive Coder.",
         "Lifelong Learner."
       ],
@@ -65,9 +65,9 @@ $(document).ready(function () {
   
     var typed2 = new Typed(".typing-2", {
       strings: [
-        "Active Listener", 
-        "Organized Person", 
-        "Techie Geek", 
+        "Active Listener.", 
+        "Organized Person.", 
+        "Techie Geek.", 
         "Public Speaker."
       ],
       typeSpeed: 100,
